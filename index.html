@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80px;
+    background-color: #2f2fa5; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navbar img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.navbar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar nav ul li {
+    margin-bottom: 10px;
+}
+
+.navbar nav ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 32px;
+}
+
+.navbar nav ul li a:hover {
+    background-color: #0b2046;
+    padding:10px 32px
+}
+.logo {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 50px;
+    border-radius: 50%; /* Make the image round */
+}
+.title-section {
+    padding: 50px 0; /* Add some padding above and below the title */
+    margin-left: 4cm;
+}
+
+.main-title {
+    font-size: 48px; /* Adjust the font size as needed */
+    font-weight: bold; /* Optionally, make it bold */
+    color: #333; /* Set the color */
+}
+.footer {
+            background-color: #4c7cc4; /* Background color of the footer */
+            color: #fff; /* Text color */
+            text-align: center; /* Center-align the content */
+            padding: 10px 0; /* Add padding to the top and bottom */
+            position: fixed; /* Fix the footer to the bottom */
+            width: 100%; /* Full width */
+            bottom: 0; /* Stick to the bottom */
+        }
+.four {
+    margin-left: 4cm;
+}
+    </style>
+</head>
+<body>
+    <div class="title-section">
+        <h1 class="main-title">Welcome to My Website</h1>
+    </div>
+    <footer class="footer">
+        <p>2024 BIXXab. All rights reserved</p>
+    </footer>
+    <div class="navbar">
+        <img src="your_logo.png" alt="My Logo" width="50">
+        <nav>
+            <ul>
+                <li><a href="#1"><h1>1</h1></a></li>
+                <li><a href="#2"><h1>2</h1></a></li>
+                <li><a href="#3"><h1>3</h1></a></li>
+                <li><a href="#4"><h1>4</h1></a></li>
+                <li><a href="#"><h1>5</h1></a></li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <section class="four" id="1"><h1>Hello</h1></section>
+        <section><img class="four" src="dovydasbelike2.jpg" alt="dovydasbelike" width="300"></section>
+    </div>
+</body>
+</html>
